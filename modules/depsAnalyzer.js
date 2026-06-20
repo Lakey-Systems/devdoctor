@@ -17,8 +17,6 @@ function classifyVersionRisk(name, versionRange) {
 	const match = cleaned.match(/(\d+)\.(\d+)\.(\d+)/);
 	if (!match) return reasons;
 
-	const major = parseInt(match[1], 10);
-
 	if (cleaned.startsWith('^0.') || cleaned.startsWith('0.')) {
 		reasons.push(`${name}@${cleaned} is a pre-1.0 release (^0.x) - API may be unstable`);
 	}
