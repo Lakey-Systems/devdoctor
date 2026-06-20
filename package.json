@@ -1,11 +1,11 @@
 {
-	"name": "devdoctorjs",
+	"name": "@primsxzx/devdoctor",
 	"version": "1.0.1",
 	"description": "Local, deterministic project health scanner for developers. No AI, no network calls, no telemetry.",
 	"main": "index.js",
 	"type": "commonjs",
 	"bin": {
-		"devdoctor": "./index.js"
+		"devdoctor": "index.js"
 	},
 	"scripts": {
 		"start": "node index.js"
@@ -29,7 +29,7 @@
 	"preferGlobal": true,
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Lakey-Systems/devdoctor"
+		"url": "git+https://github.com/Lakey-Systems/devdoctor.git"
 	},
 	"bugs": {
 		"url": "https://github.com/Lakey-Systems/devdoctor/issues"
