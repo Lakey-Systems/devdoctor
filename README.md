@@ -1,1 +1,1 @@
-this will be made soon
+This project is still a work-in-progress. Nothing is final, ideally do not use this in a production environment unless you understand the risks.
