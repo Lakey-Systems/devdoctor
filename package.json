@@ -1,5 +1,5 @@
 {
-	"name": "devdoctor",
+	"name": "devdoctorjs",
 	"version": "1.0.1",
 	"description": "Local, deterministic project health scanner for developers. No AI, no network calls, no telemetry.",
 	"main": "index.js",
