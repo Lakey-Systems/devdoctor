@@ -1,6 +1,6 @@
 {
 	"name": "@primsxzx/devdoctor",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Local, deterministic project health scanner for developers. No AI, no network calls, no telemetry.",
 	"main": "index.js",
 	"type": "commonjs",
