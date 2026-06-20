@@ -2,7 +2,6 @@
 
 const path = require('path');
 const fs = require('fs');
-const { readJsonSafe } = require('../utils/fs');
 const logger = require('../utils/logger');
 
 function detectProjectContext(cwd) {
