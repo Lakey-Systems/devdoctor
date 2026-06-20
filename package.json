@@ -1,0 +1,46 @@
+{
+	"name": "devdoctor",
+	"version": "1.0.0",
+	"description": "Local, deterministic project health scanner for developers. No AI, no network calls, no telemetry.",
+	"main": "index.js",
+	"type": "commonjs",
+	"bin": {
+		"devdoctor": "./index.js"
+	},
+	"scripts": {
+		"start": "node index.js"
+	},
+	"keywords": [
+		"cli",
+		"devtools",
+		"git",
+		"linter",
+		"health-check",
+		"project-scanner",
+		"static-analysis",
+		"code-quality",
+		"developer-tool",
+		"repo-health"
+	],
+	"license": "MIT",
+	"engines": {
+		"node": ">=18"
+	},
+	"preferGlobal": true,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Lakey-Systems/devdoctor"
+	},
+	"bugs": {
+		"url": "https://github.com/Lakey-Systems/devdoctor/issues"
+	},
+	"homepage": "https://github.com/Lakey-Systems/devdoctor#readme",
+	"files": [
+		"index.js",
+		"commands/",
+		"modules/",
+		"utils/",
+		"README.md"
+	],
+	"packageManager": "npm@10.0.0"
+}
